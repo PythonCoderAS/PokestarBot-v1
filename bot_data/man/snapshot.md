@@ -1,0 +1,1 @@
+Control the bot snapshots.

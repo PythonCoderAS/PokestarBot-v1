@@ -1,0 +1,237 @@
+.keys kbd::before,
+.keys kbd::after {
+	position: relative;
+	margin: 0;
+	color: inherit;
+	-moz-osx-font-smoothing: initial;
+	-webkit-font-smoothing: initial;
+}
+
+.keys span {
+	padding: 0 3.2px;
+}
+
+.keys .key-alt::before {
+	padding-right: 6.4px;
+	content: "⎇";
+}
+
+.keys .key-left-alt::before {
+	padding-right: 6.4px;
+	content: "⎇";
+}
+
+.keys .key-right-alt::before {
+	padding-right: 6.4px;
+	content: "⎇";
+}
+
+.keys .key-command::before {
+	padding-right: 6.4px;
+	content: "⌘";
+}
+
+.keys .key-left-command::before {
+	padding-right: 6.4px;
+	content: "⌘";
+}
+
+.keys .key-right-command::before {
+	padding-right: 6.4px;
+	content: "⌘";
+}
+
+.keys .key-control::before {
+	padding-right: 6.4px;
+	content: "⌃";
+}
+
+.keys .key-left-control::before {
+	padding-right: 6.4px;
+	content: "⌃";
+}
+
+.keys .key-right-control::before {
+	padding-right: 6.4px;
+	content: "⌃";
+}
+
+.keys .key-meta::before {
+	padding-right: 6.4px;
+	content: "◆";
+}
+
+.keys .key-left-meta::before {
+	padding-right: 6.4px;
+	content: "◆";
+}
+
+.keys .key-right-meta::before {
+	padding-right: 6.4px;
+	content: "◆";
+}
+
+.keys .key-option::before {
+	padding-right: 6.4px;
+	content: "⌥";
+}
+
+.keys .key-left-option::before {
+	padding-right: 6.4px;
+	content: "⌥";
+}
+
+.keys .key-right-option::before {
+	padding-right: 6.4px;
+	content: "⌥";
+}
+
+.keys .key-shift::before {
+	padding-right: 6.4px;
+	content: "⇧";
+}
+
+.keys .key-left-shift::before {
+	padding-right: 6.4px;
+	content: "⇧";
+}
+
+.keys .key-right-shift::before {
+	padding-right: 6.4px;
+	content: "⇧";
+}
+
+.keys .key-super::before {
+	padding-right: 6.4px;
+	content: "❖";
+}
+
+.keys .key-left-super::before {
+	padding-right: 6.4px;
+	content: "❖";
+}
+
+.keys .key-right-super::before {
+	padding-right: 6.4px;
+	content: "❖";
+}
+
+.keys .key-windows::before {
+	padding-right: 6.4px;
+	content: "⊞";
+}
+
+.keys .key-left-windows::before {
+	padding-right: 6.4px;
+	content: "⊞";
+}
+
+.keys .key-right-windows::before {
+	padding-right: 6.4px;
+	content: "⊞";
+}
+
+.keys .key-arrow-down::before {
+	padding-right: 6.4px;
+	content: "↓";
+}
+
+.keys .key-arrow-left::before {
+	padding-right: 6.4px;
+	content: "←";
+}
+
+.keys .key-arrow-right::before {
+	padding-right: 6.4px;
+	content: "→";
+}
+
+.keys .key-arrow-up::before {
+	padding-right: 6.4px;
+	content: "↑";
+}
+
+.keys .key-backspace::before {
+	padding-right: 6.4px;
+	content: "⌫";
+}
+
+.keys .key-backtab::before {
+	padding-right: 6.4px;
+	content: "⇤";
+}
+
+.keys .key-caps-lock::before {
+	padding-right: 6.4px;
+	content: "⇪";
+}
+
+.keys .key-clear::before {
+	padding-right: 6.4px;
+	content: "⌧";
+}
+
+.keys .key-context-menu::before {
+	padding-right: 6.4px;
+	content: "☰";
+}
+
+.keys .key-delete::before {
+	padding-right: 6.4px;
+	content: "⌦";
+}
+
+.keys .key-eject::before {
+	padding-right: 6.4px;
+	content: "⏏";
+}
+
+.keys .key-end::before {
+	padding-right: 6.4px;
+	content: "⤓";
+}
+
+.keys .key-escape::before {
+	padding-right: 6.4px;
+	content: "⎋";
+}
+
+.keys .key-home::before {
+	padding-right: 6.4px;
+	content: "⤒";
+}
+
+.keys .key-insert::before {
+	padding-right: 6.4px;
+	content: "⎀";
+}
+
+.keys .key-page-down::before {
+	padding-right: 6.4px;
+	content: "⇟";
+}
+
+.keys .key-page-up::before {
+	padding-right: 6.4px;
+	content: "⇞";
+}
+
+.keys .key-print-screen::before {
+	padding-right: 6.4px;
+	content: "⎙";
+}
+
+.keys .key-tab::after {
+	padding-left: 6.4px;
+	content: "⇥";
+}
+
+.keys .key-num-enter::after {
+	padding-left: 6.4px;
+	content: "⌤";
+}
+
+.keys .key-enter::after {
+	padding-left: 6.4px;
+	content: "⏎";
+}

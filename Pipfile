@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+tqdm = "*"
+
+[packages]
+anytree = "*"
+pytz = "*"
+aiosqlite = "*"
+aiohttp = { extras = ["speedups"], version = "*" }
+bbcode = "*"
+feedparser = "*"
+bs4 = "*"
+lxml = "*"
+asyncpraw = "*"
+owotext = "*"
+zalgo-text = "*"
+"discord.py" = {extras = ["voice"], version = "*"}
+pyttsx3 = "*"
+psutil = "*"
+sentry-sdk = "*"
+matplotlib = "*"
+numpy = "*"
+python-daemon = "*"
+jishaku = "==2.3.2"
+
+[requires]
+python_version = "3.8"

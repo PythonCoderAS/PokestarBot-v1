@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/resources/css/keys.css?v=1">
+    <link rel="stylesheet" href="/resources/css/main.css?v=5">
+    <link rel="stylesheet" href="/resources/css/syntax-highlight.css?v=1">
+    <link rel="stylesheet" href="/resources/css/tabs.css?v=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&family=Cousine&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="header" class="line-bottom">
+    <a href="/" class="nolink"><p class="title" style="font-size: 36px">PokestarBot</p></a>
+    <p  id="breadcrumbs">You are at: {{ " » ".join(page_parts) }}</p>
+</div>
+
+<h1 id="title" class="center">
+    {{ title }}
+</h1>
+
+{% if toc %}
+<div class="border" id="toc">
+    <h2>Table of Contents</h2>
+    {{ toc }}
+</div>
+{% endif %}
+
+<article id="content">
+    {{ content }}
+</article>
+</body>
+</html>

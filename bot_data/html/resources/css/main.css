@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Empirez;
+    src: url("/resources/fonts/Empirez-PKZJx.ttf") format('truetype'),
+    url("/resources/fonts/Empirez-PKZJx.woff") format('woff');
+}
+
+.title {
+    font-family: Empirez, 'Titillium Web', sans-serif;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.line-bottom {
+    border-bottom: 1px solid #D3D3D3;
+}
+
+body {
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    margin-top: 15px;
+    line-height: 175%;
+}
+
+#content, .border {
+    border: 1px solid #D3D3D3;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+#content > *:first-child {
+    padding-top: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+#header p {
+    margin: 0 0 3px;
+}
+
+.twemoji {
+    width: 20px;
+    height: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.admonition {
+    padding: 2%;
+}
+
+.info {
+    border: 1px solid #00cc66;
+}
+
+#toc li > ul {
+    border-left: 2px solid #D3D3D3;
+}
+
+code, pre, kbd {
+    background-color: #E8E8E8;
+    padding: 5px;
+    font-family: 'Cousine', monospace;
+}
+
+blockquote {
+    border: 1px solid #FF1493;
+    padding: 2%;
+}
+
+.nolink {
+    text-decoration: none;
+    color: inherit;
+}
